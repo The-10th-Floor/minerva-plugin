@@ -1,0 +1,14 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "minerva-plugin",
+  "description": "Skills and the MCP connection for Minerva, AI call practice for contact centers.",
+  "owner": { "name": "The X Floor", "url": "https://thexfloor.com" },
+  "plugins": [
+    {
+      "name": "minerva",
+      "description": "Set up a Minerva workspace and its training drills from your agent, and coach from scored calls.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

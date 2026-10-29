@@ -1,0 +1,22 @@
+{
+  "name": "minerva",
+  "displayName": "Minerva",
+  "version": "0.1.0",
+  "description": "Set up a Minerva call-practice workspace from your agent: AI customers, call scenarios, rubrics, ready drills for each team, and coaching from scored calls. Connects to Minerva's MCP server with your own sign-in.",
+  "author": {
+    "name": "The X Floor",
+    "url": "https://thexfloor.com"
+  },
+  "homepage": "https://github.com/AnasMK9/minerva-plugin",
+  "repository": "https://github.com/AnasMK9/minerva-plugin",
+  "license": "MIT",
+  "keywords": [
+    "call center",
+    "contact center",
+    "training",
+    "role-play",
+    "voice AI",
+    "QA",
+    "mcp"
+  ]
+}
