@@ -23,4 +23,4 @@ Readiness is judged against a bar the person agreed: for example, every preset i
 
 ## Change a score
 
-`evaluations_override` sets the manager's own values, notes and up to three coaching actions, and the trainee sees them. Show the person the change and get their yes before sending `confirm: true`. `evaluations_retry` re-runs a judge that failed.
+`evaluations_override` sets the manager's own values, notes and up to three coaching actions, and the trainee sees them. Show the person the change and get their yes before sending `confirm: true`. `evaluations_reevaluate` (`drillIds`) re-runs the judge on failed or disputed drills.

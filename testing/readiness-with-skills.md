@@ -19,7 +19,7 @@ One workspace (Amman BPO), so no `orgId` is passed.
 13. `evaluations_get` `{"drillId": "d21"}` (Yazan's latest scored call)
 14. `evaluations_get` `{"drillId": "d15"}` (Khaled's overridden call)
 
-No writes, no `evaluations_retry` (Lina's pending call is still being judged, not failed).
+No writes, no `evaluations_reevaluate` (Lina's pending call is still being judged, not failed).
 
 ## Answer to the owner
 
