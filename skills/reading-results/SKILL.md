@@ -23,7 +23,7 @@ A drill's `status` runs reserved, connecting, live, then `ended` or `failed`. On
 
 ## Scores
 
-- `score.status`: `pending` (the judge is working), `scored`, `failed` (run `evaluations_retry`), `overridden` (a manager set their own values).
+- `score.status`: `pending` (the judge is working), `scored`, `failed` (run `evaluations_retry`), `overridden` (a manager set their own values). `evaluations_retry` also re-evaluates a `scored` drill when the trainee disputes the score: the drill's rep, their managers or owners can run it, and the new score replaces the old one. Pass `rubricIds` to score against other rubrics at their current version (when the drill's rubric was deleted). It is refused once `overridden`, and with `catalog_deleted` when the drill's scenario or persona was deleted.
 - Per rubric, `total` is 0 to 100 from the weighted scored and pass/fail criteria; `passed` of `items` counts the pass/fail ones. A notes-only rubric has no number. A drill's score is the mean of its rubrics.
 - `evaluations_get` gives, per rubric, the judge's `result` (each criterion's 1–5 `score` or `passed`, a `comment`, and `evidence` quotes with `turn` and `startSec`), three `coaching` tips, `timeline` metrics (talk ratio, words per minute, fillers, dead air, interruptions, response latency) and any `override`: the manager's values, note and up to three coaching actions. The final values, judge's or manager's, are in the drill's `score`.
 
