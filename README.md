@@ -18,11 +18,9 @@ claude plugin install minerva@minerva-plugin
 
 Then, in a session, run `/mcp`, pick `minerva`, sign in, and tick the workspaces and permissions to grant. The same two steps work inside a session as `/plugin marketplace add AnasMK9/minerva-plugin` and `/plugin install minerva@minerva-plugin`.
 
-While this repository is private, Claude Code clones it with your own git credentials: run `gh auth login` and `gh auth setup-git` first.
-
 ### Claude.ai and Claude Desktop
 
-1. Open [Customize, Plugins](https://claude.ai/customize/plugins), then Add, Add marketplace, and enter `AnasMK9/minerva-plugin`. While the repository is private, connect GitHub when asked and give the Claude GitHub App access to it. You can also download this repository as a zip and use Add, Upload plugin.
+1. Open [Customize, Plugins](https://claude.ai/customize/plugins), then Add, Add marketplace, and enter `AnasMK9/minerva-plugin`. You can also download this repository as a zip and use Add, Upload plugin.
 2. Add the Minerva plugin, open its Connectors tab, and connect `minerva`.
 
 A plugin added here also reaches Claude Code on the same account. Without the plugin, add `https://minerva.thexfloor.com/api/mcp` as a custom connector, then upload the folders under `skills/` in Customize, Skills.
