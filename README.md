@@ -9,18 +9,18 @@ You need a Minerva account with the owner or manager role. Sign-in is OAuth in y
 ### Claude Code
 
 ```bash
-claude plugin marketplace add AnasMK9/minerva-plugin
+claude plugin marketplace add The-10th-Floor/minerva-plugin
 ```
 
 ```bash
 claude plugin install minerva@minerva-plugin
 ```
 
-Then, in a session, run `/mcp`, pick `minerva`, sign in, and tick the workspaces and permissions to grant. The same two steps work inside a session as `/plugin marketplace add AnasMK9/minerva-plugin` and `/plugin install minerva@minerva-plugin`.
+Then, in a session, run `/mcp`, pick `minerva`, sign in, and tick the workspaces and permissions to grant. The same two steps work inside a session as `/plugin marketplace add The-10th-Floor/minerva-plugin` and `/plugin install minerva@minerva-plugin`.
 
 ### Claude.ai and Claude Desktop
 
-1. Open [Customize, Plugins](https://claude.ai/customize/plugins), then Add, Add marketplace, and enter `AnasMK9/minerva-plugin`. You can also download this repository as a zip and use Add, Upload plugin.
+1. Open [Customize, Plugins](https://claude.ai/customize/plugins), then Add, Add marketplace, and enter `The-10th-Floor/minerva-plugin`. You can also download this repository as a zip and use Add, Upload plugin.
 2. Add the Minerva plugin, open its Connectors tab, and connect `minerva`.
 
 A plugin added here also reaches Claude Code on the same account. Without the plugin, add `https://minerva.thexfloor.com/api/mcp` as a custom connector, then upload the folders under `skills/` in Customize, Skills.
